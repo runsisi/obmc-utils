@@ -27,7 +27,7 @@ def parse_args():
         dest='verbose',
         action='store_true',
         default=False,
-        help='root dir to create'
+        help='more verbose'
     )
     return parser.parse_args()
 
